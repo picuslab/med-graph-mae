@@ -50,10 +50,18 @@ Once the licence has been obtained, pre-processed data can be requested. In part
 
 2. Run the 'GM2Run.ipynb' (https://github.com/picuslab/med-graph-mae/blob/main/GM2Run.ipynb) notebook to run GraphMAE2
     - You have to use a gpu to run the code
-    - In google colaboratory:
-        - go to "Runtime"
-        - change runtime type
-        - select "T4 GPU" and save 
+        - In google colaboratory:
+            - go to "Runtime"
+            - change runtime type
+            - select "T4 GPU" and save
+    - To use gcn/gat:
+        -  modify line "!python main_full_batch.py --dataset mimic --encoder gat --decoder gat --seed 0 --device 0" and chose encoder/decoder type (gat/gcn)
+
+3. In GraphMAE2:
+    - To change Tuning parameter go to "GraphMAE2-main/utils.py" (https://github.com/picuslab/med-graph-mae/blob/main/GraphMAE2-main/utils.py)
+    - To change "k" in the metrics calculation go to "GraphMAE2-main/main_full_batch.py" (https://github.com/picuslab/med-graph-mae/blob/main/GraphMAE2-main/main_full_batch.py) -> line 303
+
+
 
 ## Baseline
 
