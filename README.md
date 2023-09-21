@@ -41,7 +41,7 @@ Once the licence has been obtained, pre-processed data can be requested. In part
 
 ## Usage
 
-1. Run the 'GM2Preparation.ipynb' (https://github.com/picuslab/med-graph-mae/blob/main/GM2Preparation.ipynb) notebook you will use the above-mentioned files to create the dataframes needed to generate the graphs and therefore to use the GraphMAE2 framework. In particular:
+1. Run the 'GM2Preparation.ipynb' (https://github.com/picuslab/med-graph-mae/blob/main/GM2Preparation.ipynb) notebook. You will use the above-mentioned files to create the dataframes needed to generate the graphs and therefore to use the GraphMAE2 framework. In particular:
     - change the folders
     - uncomment lines for "GROUND TRUTH GENERATION"
     - uncomment line for "LABEL GENERATION"
