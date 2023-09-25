@@ -62,6 +62,15 @@ Once the licence has been obtained, pre-processed data can be requested. In part
     - To change "k" in the metrics calculation go to "GraphMAE2-main/main_full_batch.py" (https://github.com/picuslab/med-graph-mae/blob/main/GraphMAE2-main/main_full_batch.py) -> line 303
 
 
+## Visualization
+To test the model you can run the script "NewUserPrediction.ipynb" (https://github.com/picuslab/med-graph-mae/blob/main/NewUserPrediction.ipynb). You must use the GPU and, after running the code for linking to the files and using cuda: 
+
+    - 1. select the disorders from the drop-down menu by pressing the "Seleziona Termine" button; 
+    - 2. confirm your selection by pressing the "Conferma Selezione" button
+    - 3. run next cell
+
+To execute the code you need to add the files in this link: "https://drive.google.com/drive/folders/12uzeu5es1btS_z-9KcigGdhKtZWOXGGF?usp=drive_link" to your execution environment
+
 
 ## Baseline
 
